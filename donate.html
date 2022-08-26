@@ -1,0 +1,156 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scales"> 
+        <meta name="description" content="about different kind of Purchase and Donates in Sri Lanka."> 
+        <title>Purchase And Donate</title> 
+        <link rel="stylesheet" href="donate.css"> 
+    </head> 
+    <body>  
+            
+            <nav> 
+                <div class="logo"> 
+                    <p>SEE SRI LANKA</p> 
+                </div> 
+             <ul> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="wild.html">Wildlife</a></li> 
+                <li><a href="kandy.html">Kandy</a></li> 
+                <li><a href="sigiriya.html">Sigiriya</a></li> 
+                <li><a href="beaches.html">Beaches</a></li> 
+                <li><a href="activities.html">Activities</a></li> 
+                <li><a href="donate.html">Purchase and Donate</a></li> 
+             </ul> 
+            </nav> 
+            </header> 
+        
+
+        <section class="content">
+            <img src="WDOS2 images/children/1548780447_5005-large.jpg" alr="DONATION" class="responsive"/> 
+            <h1>Donate Projets</h1> 
+
+            <p>We help allaover the people in Sri Lnka who in need HELP.
+
+                  </p> 
+
+         
+
+         
+
+        <div id="box"> 
+
+            <div class="item"> 
+
+                
+                <img src="WDOS2 images/donation/images.jpeg" atl="wood masks"  width="330px" height="180px" class="images"> 
+                <h2>Jwellary Making</h2>
+                <input type="button" value="Buy Now" id="buynowBtn" class="buy-btn">
+            </div> 
+
+            <div class="item"> 
+                 
+                <img src="WDOS2 images/donation/m03.jpeg" alt="a lackquar work" width="330px" height="180px" class="images" >
+                <h2>Lackquar Works</h2>
+            <input type="button" value="Buy Now" id="buynowBtn" class="buy-btn">
+        </div> 
+
+            <div class="item">  
+                <img src="WDOS2 images/donation/b834a31c1aac9e7fb228135e2224add2bd86b7cf_original.jpeg" atl="stone jwelleries" width="330px" height="180px" class="images">
+                <h2>Jwellary Making</h2> 
+                     <input type="button" value="Buy Now" id="buynowBtn" class="buy-btn">
+                     </div> 
+
+            </div> 
+
+            <div id="box2"> 
+            <div class="item"> 
+                
+                <img src="WDOS2 images/donation/process-making-batik-batik-is-handmade-traditional-art-fashion-from-indonesia_67086-221.jpeg" alt="printing bhathik clothes" width="330px" height="180px" class="images" > 
+                <h2>Batik Clothes</h2> 
+                      <input type="button" value="Buy Now" id="buynowBtn" class="buy-btn"> 
+                </div> 
+
+            <div class="item">  
+                
+                <img src="WDOS2 images/donation/depositphotos_84506690-stock-photo-thailand-wood-carving-art.jpeg" atl="wood crave of an elephant family" width="300px" height="180" class="images"> 
+                <h2>Wood Craving</h2>
+                <input type="button" value="Buy Now" id="buynowBtn" class="buy-btn">
+            </div> 
+
+            <div class="item"> 
+                <img src="WDOS2 images/donation/1.jpeg" alt="clay items" width="300px" width="330px" height="180px" class="images"> 
+                <h2>Clay Items</h2>
+                <input type="button" value="Buy Now" id="buynowBtn" class="buy-btn"> 
+            </div> 
+        </div> 
+    </section>
+    
+    
+    <section class="donate_form">
+        <header>Easy Donation</header>
+
+        <form action="#" id="dntform">
+            <div class="form-first">
+                <div class="details-personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text"  id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input type="text" id="address" placeholder="Enter your Address" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" id="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+
+                    <div class="details-amount">
+                        <span class="amount_title">Select Fixed Donation Amount</span>
+                        <div class="amount_catagory" id="fixedDonation">
+                            <input type="radio" name="amount"  required>
+                            <label>250 LKR</label>
+                            <input type="radio" name="amount" required>
+                            <label>500 LKR</label>
+                            <input type="radio" name="amount" required>
+                            <label>1000 LKR</label>
+                            <input type="radio" name="amount" required>
+                            <label>2500 LKR</label>
+                            <input type="radio" name="amount" required>
+                            <label>5000 LKR</label>
+                            <input type="radio" name="amount" required>
+                            <label>10000 LKR</label>
+                        </div>
+                    </div>
+
+                    <div class="details-card">
+                    <span class="title">Card Details</span>
+                        <div class="input-field">
+                            <label>Card Number</label>
+                            <input type="number" id="cardNo" placeholder="Enter card number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Card Holder</label>
+                            <input type="text" id="cardHolder" placeholder="Enter card holder" required>
+                        </div>
+                        <div class="input-field">
+                            <label>CVV</label>
+                            <input type="text" id="cvv" placeholder="Enter CVV" required>
+                        </div>
+                    </div>
+                    <input type="submit" value="Donate" id="donateBtn" class="submit-btn" onclick=inputValidation(); >
+                </div>
+            </form>   
+    </section>
+
+    <script src="main.js"></script>
+    </div>
+    </body> 
+</html> 
+
+ 

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif; 
+} 
+
+nav{ 
+    width: 100%; 
+    height: 75px; 
+    background-color:#36013f ; 
+    line-height: 75px; 
+    padding: 0px 100px; 
+    position: relative; 
+    z-index: 1; 
+} 
+
+nav .logo{ 
+    font-size: 40px; 
+    font-weight: 700; 
+    letter-spacing: 1.5px; 
+} 
+
+nav .logo p{ 
+    float: left; 
+    color: #40e0d0; 
+} 
+
+nav ul{ 
+    float: right; 
+} 
+
+nav ul li{ 
+    display: inline-block; 
+    list-style: none; 
+} 
+
+nav ul li a{ 
+    color: white; 
+    text-decoration: none; 
+    font-size: 17px; 
+    text-transform: uppercase; 
+    padding: 0px 32px; 
+} 
+
+nav ul li a:hover { 
+    color: #008080; 
+} 
+
+#content{ 
+    text-align: left; 
+    margin: 0 auto; 
+    width: 1000px; 
+} 
+
+html{ 
+    overflow: -moz-hidden-unscrollable; 
+} 
+
+body{ 
+    text-align: center; /*Center in IE */ 
+} 
+
+.responsive{ 
+    width: 100%; 
+    height: auto; 
+} 
+
+#content {  
+    font-size: 60px; 
+    color: white; 
+} 
+
+.center{ 
+    font-family: sans-serif; 
+    position: absolute; 
+    top: 50%; 
+    left: 25%; 
+    right: 25%; 
+    bottom: 50%; 
+    transform: (-50%, -50%); 
+    text-align: center; 
+    letter-spacing: 1.5px; 
+} 
+
+h1{ 
+    font-weight: bold; 
+} 
+
+.container{ 
+    width: 100%; 
+    margin-top: 40px; 
+} 
+
+.container .row{ 
+     width: 100%; 
+     min-height: 500px; 
+     display: flex; 
+     justify-content: space-between; 
+     align-items: center; 
+     padding: 0px 100px; 
+} 
+
+.image-section{ 
+    width: 100%; 
+} 
+
+.image-section img{ 
+    width: 90%; 
+    height: auto; 
+    width: auto; 
+} 
+
+.content{ 
+    width: 100%; 
+} 
+
+.content h2{ 
+    font-size: 75px; 
+    color: #008080; 
+} 
+
+.content h3{ 
+    font-size: 45px; 
+    margin: 10px 0px; 
+} 
+
+.content p{ 
+    font-size: 18px; 
+    margin-bottom: 50px; 
+    color: black; 
+} 
+ 
+
+.festival-section{ 
+    width: 100%; 
+} 
+
+.festival-section h2{ 
+    font-size: 45px; 
+    margin: 10px 0px; 
+} 
+
+.festival-section .section-content{ 
+    padding: 0px 100px; 
+    margin: 40px auto; 
+} 
+
+.festval-section .festival-content .title{ 
+    width: 60%; 
+    text-align: center; 
+    margin: auto; 
+} 
+
+.festival-section .section-content h2{ 
+    font-size: 45px; 
+    color: #008080; 
+    text-transform: uppercase; 
+} 
+
+.festival-section .section-content p{ 
+    color: black; 
+    font-size: 18px; 
+    margin-top: 20px; 
+} 
+
+.festival-section .section-content .titlle p{ 
+    font-size: 19px; 
+    color: black; 
+    margin-top: 20px; 
+} 
+
+.festival-section .section-content .cards{ 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-column: auto auto auto; 
+    margin: 50px auto;  
+} 
+
+.festival-section .section-content .cards .card{ 
+    width: 100%; 
+    background-color: #f7f7f7; 
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0);
+} 
+
+.festival-section .section-content .cards .card img{ 
+    width: 100%; 
+    height: auto; 
+} 
+
+.festival-section .section-content .cards .card img .festivals{ 
+     padding: 15px 20px; 
+} 
+
+.festival-section .section-content .cards .card .festivals h4{ 
+    font-size: 24px; 
+    color: #000; 
+} 
+
+.festival-section .section-content .cards .card .festivals p{ 
+    font-size: 15px; 
+    margin: 10px 10px; 
+} 
+
+.footer{ 
+    min-height: 200px; 
+    width: 100%; 
+    background-color: #008080; 
+    display: flex; 
+    justify-content: center; 
+} 
+
+@media screen and (max-width: 768px){ 
+    .nav-menu{ 
+        padding: 0px 0px; 
+    } 
+
+    .nav-menu .logo{ 
+        font-size: 28px; 
+        padding-left: 60px; 
+        font-weight: 700; 
+        margin: 10px 0px; 
+    } 
+
+    .nav-menu ul{ 
+        display: flex; 
+    } 
+
+    .nav-menu ul li{ 
+        list-style: none; 
+        padding: 10px 15px; 
+    } 
+
+    .nav-menu ul li a{ 
+        text-decoration: none; 
+        font-size: 17px; 
+        color: #008080; 
+    } 
+}
